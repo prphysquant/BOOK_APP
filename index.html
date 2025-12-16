@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTIN - Librairie en ligne</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="bg-white sticky-top border-bottom">
+
+
+        <div class="container py-3">
+            <div class="row align-items-center">
+
+
+                <div class="col-lg-3 col-md-3 d-none d-md-block">
+                    <div class="input-group no-border">
+                        <input type="text" class="form-control" placeholder="Search books...">
+                        <button class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-8 text-center">
+                    <h1 class="display-5 fw-bold mb-0">BOOTIN</h1>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 d-none d-md-flex justify-content-end gap-3 fs-4">
+                    <div class="d-flex justify-content-center justify-content-lg-end gap-3 fs-4">
+                        <span class="position-relative">
+                            <i class="far fa-heart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                style="font-size:10px">3</span>
+                        </span>
+                        <span class="position-relative">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                style="font-size:10px">0</span>
+                        </span>
+                        <i class="far fa-user"></i>
+                    </div>
+                </div>
+
+
+                <div class="col-4 d-md-none fs-3">
+                    <label for="menuToggle" class="btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+                <input type="checkbox" id="menuToggle" hidden>
+                <div class="mobile-menu d-md-none">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="shoops.html" class="nav-link">Shop</a></li>
+                        <li class="nav-item"><a href="post.html" class="nav-link">Post</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+        <nav class="bg-white d-none d-md-block py-4">
+            <div class="container">
+                <div class="container">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link text-danger fw-semibold">Home</a></li>
+                        <li class="nav-item"><a href="shoops.html" class="nav-link text-dark">Shop</a></li>
+                        <li class="nav-item"><a href="post.html" class="nav-link text-dark">Post</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-dark">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+
+    <div class="container-fluid bground-01">
+
+
+        <div class="container-fluid py-4">
+            <div class="row g-2 m-1">
+
+
+                <div class="col-12 col-md-8 bgrounb-02">
+                    <div class="p-4 rounded h-100">
+                        <div class="row align-items-center g-3">
+                            <div class="col-12 col-md-6">
+                                <p class="text-danger fw-bold mb-2">BOOKS EVENT 2019</p>
+                                <p class="fw-bold mb-3 text-dark">
+                                    SALE UP TO<br>20% OFF
+                                </p>
+                                <button class="btn btn-danger px-3 py-2 rounded-pill">Shop Now</button>
+                            </div>
+
+                            <div class="col-12 col-md-6 text-center">
+                                <img src="book.png" class="img-fluid rounded" alt="Books">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4">
+                    <div class="promo-pink p-4 rounded text-center h-100">
+                        <img src="book2.png" class="img-fluid mb-3" alt="Book">
+                        <p><button class="btn btn-mint px-3 py-2">Sale -50%</button></p>
+                        <h5 class="fw-bold mb-0">Six Little <br> Birds</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <section class="py-5">
+            <div class="container-fluid">
+                <div class="row g-3">
+
+
+
+                    <div class="col-lg col-md-4 col-6 col-12 ">
+                        <div class="category-btn p-4 d-flex flex-column align-items-center justify-content-center">
+                            <div class="abdel mb-2">
+                                <i class="bi bi-journal-arrow-up fs-2"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-0 text-center">Classic</h6>
+                        </div>
+                    </div>
+                    <!-- Drama -->
+                    <div class="col-lg col-md-4 col-6 col-12 ">
+                        <div class="category-btn p-4 d-flex flex-column align-items-center justify-content-center">
+                            <div class="abdel mb-2">
+                                <i class="bi bi-journals fs-2"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-0 text-center">Drama</h6>
+                        </div>
+                    </div>
+
+                    <!-- For Kid -->
+                    <div class="col-lg col-md-4 col-6 col-12">
+                        <div class="category-btn p-4 d-flex flex-column align-items-center justify-content-center">
+                            <div class="abdel mb-2">
+                                <i class="bi bi-boxes fs-2"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-0 text-center">For Kid</h6>
+                        </div>
+                    </div>
+
+                    <!-- Horror -->
+                    <div class="col-lg col-md-6 col-6 col-12">
+                        <div
+                            class="category-btn p-4 d-flex flex-column align-items-center justify-content-center w-100">
+                            <div class="abdel mb-2">
+                                <i class="bi bi-diagram-2-fill fs-2"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-0 text-center">Horror</h6>
+                        </div>
+                    </div>
+
+                    <!-- Loved -->
+                    <div class="col-lg col-md-6 col-6 col-12">
+                        <div
+                            class="category-btn p-4 d-flex flex-column align-items-center justify-content-center w-100">
+                            <div class="abdel mb-2">
+                                <i class="bi bi-heart fs-2"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-0 text-center">Loved</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+    <section class="py-5">
+        <div class="container-fluid">
+            <div class="row g-4">
+
+
+                <div class="col-lg-9 col-md-12">
+                    <h2 class="fw-bold position-relative d-inline-block  mx-md-4">
+                        Featured
+                        <span class="barre-rouge position-absolute start-0 translate-middle-y"></span>
+                    </h2>
+
+                    <div class="container-fluid py-md-4">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <div class="bg-light p-3 rounded h-100">
+                                    <div class="text-center h-100 border-0">
+
+                                        <div class="card-img-container">
+                                            <img src="livre1.png" class="product-img" alt="Book">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="fw-bold">Thousand Seed</h5>
+                                            <p class="text-muted small">by Nicolas Sumpir</p>
+                                            <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                            <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-6">
+                                <div class="bg-light p-3 rounded h-100">
+                                    <div class="text-center h-100 border-0">
+
+                                        <div class="card-img-container">
+                                            <img src="livre2.png" class="product-img" alt="Book">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="fw-bold">Thousand Seed</h5>
+                                            <p class="text-muted small">by Nicolas Sumpir</p>
+                                            <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                            <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="col-lg-3">
+                    <div class="p-3 p-md-4 h-100 rounded">
+                        <h2 class="fw-bold mb-4 position-relative d-inline-block">
+                            Best Selling
+                            <span class="barre-rouge position-absolute start-0 translate-middle-y"></span>
+                        </h2>
+
+
+                        <div class="d-flex mb-3 pb-3 border-bottom">
+                            <img src="livre1.png" class="sidebar-img rounded me-3 flex-shrink-0" alt="Book">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Frank Enstein</h6>
+                                <p class="text-muted small mb-1">by Nicolas Sumpir</p>
+                                <div class="text-warning small mb-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-danger fw-bold mb-0 small">14 400 F CFA</p>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex mb-3 pb-3 border-bottom">
+                            <img src="livre2.png" class="sidebar-img rounded me-3 flex-shrink-0" alt="Book">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Inspiration Speaks</h6>
+                                <p class="text-muted small mb-1">by Nicolas Sumpir</p>
+                                <div class="text-warning small mb-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-danger fw-bold mb-0 small">14 400 F CFA</p>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex">
+                            <img src="livre3.png" class="sidebar-img rounded me-3 flex-shrink-0" alt="Book">
+                            <div class="flex-grow-1">
+                                <h6 class="fw-bold mb-1">Thousand Seed</h6>
+                                <p class="text-muted small mb-1">by Nicolas Sumpir</p>
+                                <div class="text-warning small mb-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-danger fw-bold mb-0 small">14 400 F CFA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="col-lg-9">
+
+        <div class="container-fluid py-md-4">
+            <div class="row g-2">
+                <div class="col-6">
+                    <div class="bg-light p-3 rounded h-100">
+                        <div class="text-center h-100 border-0">
+
+                            <div class="card-img-container">
+                                <img src="livre3.png" class="product-img" alt="Book">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Thousand Seed</h5>
+                                <p class="text-muted small">by Nicolas Sumpir</p>
+                                <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="bg-light p-3 rounded h-100">
+                        <div class=" text-center h-100 border-0">
+
+                            <div class="card-img-container">
+                                <img src="livre4.png" class="product-img" alt="Book">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Thousand Seed</h5>
+                                <p class="text-muted small">by Nicolas Sumpir</p>
+                                <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="col-lg-9">
+
+        <div class="container-fluid py-md-4">
+            <div class="row g-2">
+
+                <div class="col-6">
+                    <div class="bg-light p-3 rounded h-100">
+                        <div class="text-center h-100 border-0">
+
+                            <div class="card-img-container">
+                                <img src="livre5.png" class="product-img" alt="Book">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Thousand Seed</h5>
+                                <p class="text-muted small">by Nicolas Sumpir</p>
+                                <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="bg-light p-3 rounded h-100">
+                        <div class="text-center h-100 border-0">
+
+                            <div class="card-img-container">
+                                <img src="livre6.png" class="product-img" alt="Book">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Thousand Seed</h5>
+                                <p class="text-muted small">by Nicolas Sumpir</p>
+                                <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="col-lg-9">
+
+        <div class="container-fluid py-md-4">
+            <div class="row g-2">
+
+                <div class="col-6">
+                    <div class="bg-light p-3 rounded h-100">
+                        <div class="text-center h-100 border-0">
+
+                            <div class="card-img-container">
+                                <img src="liv1.png" class="product-img" alt="Book">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Thousand Seed</h5>
+                                <p class="text-muted small">by Nicolas Sumpir</p>
+                                <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="bg-light p-3 rounded h-100">
+                        <div class="text-center h-100 border-0">
+
+                            <div class="card-img-container">
+                                <img src="liv2.png" class="product-img" alt="Book">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Thousand Seed</h5>
+                                <p class="text-muted small">by Nicolas Sumpir</p>
+                                <p class="text-danger fw-bold fs-5 mt-auto">14 400 F CFA</p>
+                                <button class="btn btn-danger btn-sm mt-2">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <section class="py-5">
+        <div class="container-fluid">
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="promo-card bg-light p-4 text-center position-relative h-100 rounded-3">
+                        <img src="liv1.png" class="img-fluid mb-3" alt="Book">
+                        <span class="badge bg-danger top-0 start-0 m-3 fs-6">45% off</span>
+                        <h6 class="fw-semibold mb-0">Get 20% off on your first order</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="promo-card bgviolet p-4 text-center position-relative h-100 rounded-3">
+                        <img src="liv2.png" class="img-fluid mb-3" alt="Book">
+                        <span class="badge bg-light text-danger top-0 start-0 m-3 fs-6">45% off</span>
+                        <h6 class="fw-semibold text-white mb-0">Get 20% off on your first order</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="promo-card bgrounb-02 p-4 text-center position-relative h-100 rounded-3">
+                        <img src="liv3.png" class="img-fluid mb-3" alt="Book">
+                        <span class="badge bg-danger top-0 start-0 m-3 fs-6">45% off</span>
+                        <h6 class="fw-semibold mb-0">Get 20% off on your first order</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-5 d-none d-md-block">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center gap-2">
+                <h2 class="fw-bold mb-4 position-relative d-inline-block">
+                    Spécials Products
+                    <span class="barre-rouge position-absolute start-50 translate-middle-y"></span>
+                </h2>
+            </div>
+
+            <div class="row g-3 g-md-4 justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                    <div class="special-product text-center h-100 p-2 p-md-3">
+                        <img src="spec1.png" class="special-img img-fluid w-100 mb-3 rounded" alt="Book">
+                        <h6 class="fw-bold mb-2 fs-6">Spécial Product 1</h6>
+                        <p class="text-muted small mb-2">By author name</p>
+                        <h6 class="fw-semibold text-danger mb-0">
+
+                            <span class="text-decoration-line-through text-muted fs-7 ms-2 d-block d-sm-inline">17 500F
+                                CFA</span>
+                            <span class="badge bg-danger mt-2">20% off</span>
+                        </h6>
+
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                    <div class="special-product text-center h-100 p-2 p-md-3">
+                        <img src="spec2.png" class="special-img img-fluid w-100 mb-3 rounded" alt="Book">
+                        <h6 class="fw-bold mb-2 fs-6">Spécial Product 2</h6>
+                        <p class="text-muted small mb-2">By author name</p>
+                        <h6 class="fw-semibold text-danger mb-0">
+
+                            <span class="text-decoration-line-through text-muted fs-7 ms-2 d-block d-sm-inline">17 500F
+                                CFA</span>
+                            <span class="badge bg-danger mt-2">20% off</span>
+                        </h6>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                    <div class="special-product text-center h-100 p-2 p-md-3">
+                        <img src="spec3.png" class="special-img img-fluid w-100 mb-3 rounded" alt="Book">
+                        <h6 class="fw-bold mb-2 fs-6">Spécial Product 3</h6>
+                        <p class="text-muted small mb-2">By author name</p>
+                        <h6 class="fw-semibold text-danger mb-0">
+
+                            <span class="text-decoration-line-through text-muted fs-7 ms-2 d-block d-sm-inline">17 500F
+                                CFA</span>
+                            <span class="badge bg-danger mt-2">20% off</span>
+                        </h6>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg d-block d-md-none d-lg-block">
+                    <div class="special-product text-center h-100 p-2 p-md-3">
+                        <img src="spec4.png" class="special-img img-fluid w-100 mb-3 rounded" alt="Book">
+                        <h6 class="fw-bold mb-2 fs-6">Spécial Product 4</h6>
+                        <p class="text-muted small mb-2">By author name</p>
+                        <h6 class="fw-semibold text-danger mb-0">
+
+                            <span class="text-decoration-line-through text-muted fs-7 ms-2 d-block d-sm-inline">17 500F
+                                CFA</span>
+                            <span class="badge bg-danger mt-2">20% off</span>
+                        </h6>
+
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg d-block d-md-none d-lg-block">
+                    <div class="special-product text-center h-100 p-2 p-md-3">
+                        <img src="spec5.png" class="special-img img-fluid w-100 mb-3 rounded" alt="Book">
+
+                        <h6 class="fw-bold mb-2 fs-6">Spécial Product 5</h6>
+                        <p class="text-muted small mb-2">By author name</p>
+
+                        <h6 class="fw-semibold text-danger mb-0">
+                            <span class="text-decoration-line-through text-muted fs-7 ms-2 d-block d-sm-inline">
+                                17 500F CFA
+                            </span>
+                            <span class="badge bg-danger mt-2">20% off</span>
+                        </h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="py-4 bg-light text-center">
+        <h2 class="fw-bold mb-4 position-relative d-inline-block text-center">
+            Blogs Updates
+            <span class="barre-rouge position-absolute start-50 translate-middle-y"></span>
+        </h2>
+
+        <div class="container-fluid">
+            <div class="row g-4 justify-content-center">
+
+
+                <div class="col-lg-3 col-md-12 col-12 mx-auto">
+                    <div class="d-flex mb-3">
+                        <img src="blog.jpg" class="blog-img flex-shrink-0 me-3" alt="Blog">
+                        <div>
+                            <p class="text-danger small mb-1">May 30, 2018 / Life Style</p>
+                            <h6 class="fw-bold mb-1">Book News Missed This Week</h6>
+                            <p class="text-muted small mb-0">by Admin</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <img src="blog2.jpg" class="blog-img flex-shrink-0 me-3" alt="Blog">
+                        <div>
+                            <p class="text-danger small mb-1">May 30, 2018 / Life Style</p>
+                            <h6 class="fw-bold mb-1">Book News Missed This Week</h6>
+                            <p class="text-muted small mb-0">by Admin</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <img src="blog3.jpg" class="blog-img flex-shrink-0 me-3" alt="Blog">
+                        <div>
+                            <p class="text-danger small mb-1">May 30, 2018 / Life Style</p>
+                            <h6 class="fw-bold mb-1">Book News Missed This Week</h6>
+                            <p class="text-muted small mb-0">by Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 d-block d-md-none d-lg-block">
+                    <div class="card border-0 shadow-sm mb-3">
+                        <img src="blog4.jpg" class="card-img-top" alt="Blog">
+                        <div class="card-body">
+                            <p class="text-danger small mb-2">April 19, 2017 / Fashion</p>
+                            <h4 class="fw-bold mb-2">Lorem ipsum dolor sit amet consectetur.</h4>
+                            <p class="text-muted small mb-2">by Admin</p>
+                            <p class="mb-0">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ex mollitia autem
+                                doloribus illo velit!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-12 col-12 mx-auto">
+                    <div
+                        class="newsletter-pink p-4 text-white text-center h-100 d-flex flex-column justify-content-center ">
+                        <h4 class="fw-bold mb-3">Stay In Touch With Our Updates</h4>
+                        <p class="mb-4">Newsletter to get in touch</p>
+                        <div class="input-group border-bottom text-white">
+                            <input type="email" class="bgrounb-05 text-white" placeholder="Search books...">
+                            <button class="btn text-white bgrounb-08">→</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-5 bgviolet">
+        <div class="container py-4">
+            <div class="row g-4 text-center text-md-start">
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="icon1.png" class="text-primary me-3" alt="avar">
+                        <div>
+                            <h6 class="fw-bold mb-1">Free Shipping</h6>
+                            <p class="text-muted small mb-0">Select between a wide range of textbook and media.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="icon2.png" class="text-primary me-3" alt="avar">
+                        <div>
+                            <h6 class="fw-bold mb-1">Free Shipping</h6>
+                            <p class="text-muted small mb-0">Enjoy free shipping and our fast delivery service.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="icon3.png" class="text-primary me-3" alt="avar">
+                        <div>
+                            <h6 class="fw-bold mb-1">Free Shipping</h6>
+                            <p class="text-muted small mb-0">Get nice discount on our top rated product every sunday.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <footer class="footer-bg py-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h6 class="fw-bold position-relative d-inline-block text-uppercase fw-bold mb-3">
+                        Contact Us
+                        <span class="barre-rouge position-absolute start-0 translate-middle-y"></span>
+                    </h6>
+                    <p><i class="fa-solid fa-location-dot me-2"></i> 1998 Wall Street 707, <br> Washington DC, USA</p>
+                    <p><i class="fa-solid fa-envelope "></i> bookmart@domain.com <br>support@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>(84) 0123 456 789 <br>(84) 00123 456 789
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold position-relative d-inline-block text-uppercase fw-bold mb-3">
+                        Informations
+                        <span class="barre-rouge position-absolute start-0 translate-middle-y"></span>
+                    </h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Site Map</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Privacy</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Custumer Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold position-relative d-inline-block text-uppercase fw-bold mb-3">
+                        My Acount
+                        <span class="barre-rouge position-absolute start-0 translate-middle-y"></span>
+                    </h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Sign In</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">View Cart</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">My Wishlist</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Track My Odrer</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold position-relative d-inline-block text-uppercase fw-bold mb-3">
+                        Instagram
+                        <span class="barre-rouge position-absolute start-0 translate-middle-y"></span>
+                    </h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <img src="ins1.png" class="insta-img" alt="Instagram">
+                        <img src="ins2.png" class="insta-img" alt="Instagram">
+                        <img src="ins3.png" class="insta-img" alt="Instagram">
+                    </div>
+                    <p class="text-danger">7 days A week From 8:00 AM TO 5 PM</p>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

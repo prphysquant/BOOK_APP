@@ -1,0 +1,6 @@
+- [x] Add mx-auto to the col-12 col-lg-9 div in the second Featured & Best Selling section
+- [x] Add mx-auto to the col-12 col-lg-9 div in the third Featured & Best Selling section
+- [x] Update the first product div in the second section to col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center
+- [x] Update the second product div in the second section to col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center
+- [x] Update the first product div in the third section to col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center
+- [x] Update the second product div in the third section to col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center
