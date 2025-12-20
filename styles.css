@@ -75,15 +75,24 @@ nav {
     cursor: pointer;
 }
 
-.abdel:hover {
-    background-color: #d81b1b;
-}
+.abdel:hover {}
 
 .category-btn:hover {
     border-color: #d81b1b;
     background-color: #ffffff;
     transform: translateY(-3px)
 }
+
+.category-btn:hover .abdel {
+    background-color: #d81b1b;
+
+}
+
+.category-btn:hover .abdel i {
+    color: white;
+
+}
+
 
 .card-img-container {
     display: flex;
